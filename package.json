@@ -8,16 +8,19 @@
   },
   "scripts": {
     "format:check": "prettier . --check",
-    "format:fix": "prettier . --write"
+    "format:fix": "prettier . --write",
+    "validate": "tsc validate.ts && node validate.js"
   },
   "keywords": [],
   "author": "Willem Verbuyst",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^3.2.5"
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   }
 }
