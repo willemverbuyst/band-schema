@@ -3,8 +3,7 @@ name: "\U0001F41B Bug Report"
 about: Report a reproducible bug or regression
 title: "[BUG]"
 labels: unconfirmed
-assignees: ''
-
+assignees: ""
 ---
 
 ## Steps To Reproduce
