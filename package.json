@@ -1,0 +1,15 @@
+{
+  "name": "band-schema",
+  "version": "1.0.0",
+  "description": "- try out json-schema - try out different git/gh flows",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Willem Verbuyst",
+  "license": "ISC"
+}
