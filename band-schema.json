@@ -34,7 +34,7 @@
             "minItems": 0,
             "uniqueItems": true,
             "items": {
-              "enum": ["guitar", "bass", "drum", "vocals", "keyboard"]
+              "enum": ["guitar", "bass", "drum", "vocals", "keyboard", "piano"]
             }
           }
         }
