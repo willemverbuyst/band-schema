@@ -1,0 +1,47 @@
+{
+  "$id": "band-schema",
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "band",
+  "description": "A band on tour",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Name of the band",
+      "type": "string"
+    },
+    "startDate": {
+      "description": "The date the band was formed",
+      "type": "string"
+    },
+    "bookingsFee": {
+      "description": "Fee for a show",
+      "type": "integer",
+      "exclusiveMinimum": 0
+    },
+    "members": {
+      "description": "Members of the band",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "description": "Name of the band member",
+            "type": "string"
+          },
+          "instrument": {
+            "description": "Name of the instrument the band member plays",
+            "type": "array",
+            "minItems": 0,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    }
+  },
+  "required": ["name", "startDate", "members"]
+}

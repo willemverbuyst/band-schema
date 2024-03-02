@@ -1,0 +1,10 @@
+{
+  "name": "FooBar",
+  "startDate": "2000-01-01",
+  "bookingsFee": 666,
+  "members": [
+    { "name": "Quux", "instrument": ["drum"] },
+    { "name": "Baz", "instrument": ["bass", "vocals"] },
+    { "name": "Quuz", "instrument": ["guitar"] }
+  ]
+}
