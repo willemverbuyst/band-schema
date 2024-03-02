@@ -39,6 +39,33 @@
           }
         }
       },
+      "tour": {
+        "description": "Where and when the band has a show",
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "when": {
+              "description": "The date of the show",
+              "type": "string"
+            },
+            "where": {
+              "description": "The city and country where the performance takes place",
+              "type": "object",
+              "properties": {
+                "city": {
+                  "description": "City where the performance takes place",
+                  "type": "string"
+                },
+                "country": {
+                  "description": "Country where the performance takes place",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
       "minItems": 0,
       "uniqueItems": true
     }
