@@ -6,5 +6,6 @@
     { "name": "Quux", "instrument": ["drum"] },
     { "name": "Baz", "instrument": ["bass", "vocals"] },
     { "name": "Quuz", "instrument": ["guitar"] }
-  ]
+  ],
+  "tour": [{ "city": "Hamburg", "country": "Germany" }]
 }
