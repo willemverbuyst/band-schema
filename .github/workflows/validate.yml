@@ -1,0 +1,17 @@
+name: JSON Schema Validation
+
+on: [push]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Set up environment
+        uses: actions/setup-node@v4
+      - name: Install dependencies
+        run: npm install
+        working-directory: .
+      - name: Validate
+        run: npm run validate
