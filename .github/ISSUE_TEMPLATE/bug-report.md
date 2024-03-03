@@ -4,7 +4,6 @@ about: Report a reproducible bug or regression
 title: "[BUG]"
 labels: unconfirmed
 assignees: ""
-project: "band-schema"
 ---
 
 ## Steps To Reproduce
