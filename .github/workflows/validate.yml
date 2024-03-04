@@ -12,6 +12,6 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install dependencies
         run: npm install
-        working-directory: .
+        working-directory: ./validator
       - name: Validate
         run: npm run validate
