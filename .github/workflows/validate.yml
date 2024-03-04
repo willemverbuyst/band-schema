@@ -15,3 +15,4 @@ jobs:
         working-directory: ./validator
       - name: Validate
         run: npm run validate
+        working-directory: ./validator
