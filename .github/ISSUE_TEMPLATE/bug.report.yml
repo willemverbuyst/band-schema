@@ -12,8 +12,10 @@ body:
     attributes:
       label: What happened?
       description: Describe the bug and add steps to reproduce
-      placeholder: Bug
-      value: "A bug happened!"
+      placeholder: >
+        Bug:...
+        Step 1:...
+        Step 2:...
     validations:
       required: true
   - type: textarea
